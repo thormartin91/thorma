@@ -1,0 +1,198 @@
+<style type="text/css" media="all">
+
+	html, body, div, span,
+	h1, h2, h3, h4, p, a, ul, li,
+	table, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	body { line-height: 1; }
+	ol, ul { list-style: none; }
+	q { quotes: none; }
+	q:before, q:after { content: ''; content: none; }
+	table { border-collapse: collapse; border-spacing: 0; }
+	
+	/*-END-----------------------------------------------*/
+	
+	
+	body {
+		font: 12px/20px Verdana, Sans-serif;
+		background: #efefef;
+		color: #2f2f2f;
+	}
+    p {
+        width: 550px;
+    }
+	
+	a {
+		text-decoration: none;
+		color: #495a80;
+	}
+	a:hover {
+		color: #AAA;
+	}
+	
+	#container {
+		width: 680px;
+		margin: 0 auto;
+		padding: 45px 30px;
+	}
+	.non_list_content {
+		margin: 0 0 0 25px;
+	}
+	
+	h1 {
+		font-family: Georgia, Serif;
+		font-size: 34px;
+		text-align: center;
+		padding: 0 0 45px 0;
+	}
+	h2 {
+		font-weight: bold;
+		margin: 25px 0 10px 0;
+		border-top: 1px solid #000;
+	}
+	h2 span {
+		border-top: 3px solid #000;
+		padding: 1px 0 0 0;
+	}
+	h3 {
+		font-weight: bold;
+		line-height: 20px;
+	}
+	h3 a {
+		font-weight: normal;
+		font-size: 11px;
+		margin: 0 0 0 0;
+	}
+	h4 {
+		font-weight: bold;
+		margin: 10px 0 0 0;
+	}
+	h5 {
+		font-weight: bold;
+		margin: 10px 0 0 0;
+	}
+	
+	ul li {
+		list-style: disc;
+	}
+	
+	ul {
+		margin: 0 0 0 25px;
+	}
+	ul.exp_list li {
+		list-style: none;
+		margin: 0 0 10px 0;
+		padding: 0 0 10px 0;
+		border-bottom: 1px dotted #ccc;
+	}
+	ul.exp_list li.last {
+		margin: 0;
+		border: none;
+	}
+	ul.exp_list li span {
+		color: #aaa;
+		margin: 0 15px 0 0;
+		float: right;
+		font-style: italic;
+		font-size: 11px;
+	}
+	
+	.exp_list a h3 {
+		display: block;
+		font-weight: bold;
+		color: #2f2f2f;
+	}
+	.exp_list a:hover h3 {
+		text-decoration: underline;
+	}
+	
+	table {
+		margin: 0 auto;
+	}
+	.cell_title {
+		font-weight: bold;
+		width: 140px;
+	}
+    ul.exp_list li span.role {
+        float: left;
+        color: black;
+        font-size: 100%;
+        font-style: normal;
+    }
+
+    .news {
+    	font-size: 150%;
+    	font-weight: bold;
+    	text-align: center;
+    }
+    .body2 A:link {color: inherit;}
+	.body2 A:visited {color: inherit;}
+	.body2 A:active {color: inherit;}
+	.body2 A:hover {color: #1C1C1C;}
+    @font-face {
+		font-family: 'icomoon';
+		src:url('fonts/icomoon.eot');
+		src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+			url('fonts/icomoon.ttf') format('truetype'),
+			url('fonts/icomoon.woff') format('woff'),
+			url('fonts/icomoon.svg#icomoon') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	[class*="icon-"] {
+		font-family: 'icomoon';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-facebook:before {
+		content: "\e600";
+	}
+	.icon-twitter:before {
+		content: "\e601";
+	}
+	.icon-mail:before {
+		content: "\e602";
+	}
+	.icon-google-plus:before {
+		content: "\e603";
+	}
+	.icon-skype:before {
+		content: "\e604";
+	}
+	.icon-linkedin:before {
+		content: "\e605";
+	}
+	.icon-steam:before {
+		content: "\e606";
+	}
+	.icon-github:before {
+		content: "\e607";
+	}	
+	.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+</style>
