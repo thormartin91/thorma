@@ -12,9 +12,9 @@
 	
 	<body>
 		<div id="container">
-            <!-- add image
-            <img src="small.png" width="150" style="float:right">
-            -->
+            
+            <img id="profile-picture" src="small.png" width="150">
+            
 			<h1>Thor Martin Abrahamsen</h1>
 
 			<h1 class="body2">
@@ -78,6 +78,10 @@
 					<td class="cell_title">Epost</td>
                     <td><a href="mailto:thormartin91@gmail.com">thormartin91@gmail.com</a></td>
 				</tr>
+                <tr>
+                    <td id="cv-title" class="cell_title">CV</td>
+                    <td id="cv-url"><a href="http://folk.ntnu.no/thorma">folk.ntnu.no/thorma</a></td>
+                </tr>
 			</table>
 			
             <h2>
@@ -155,6 +159,12 @@
             </h2>
 
             <ul class="exp_list">
+                <li>
+                    <span>2015 - nå</span>
+                    <span class="role">Undervisningsassistent</span>
+                    <a href="https://www.ntnu.no/ime">NTNU</a>
+                    <p>TDT4117 - Informasjonsgjenfinning</p> 
+                </li>
                 <li>
                     <span>2014 - nå</span>
                     <span class="role">backup</span>
@@ -245,6 +255,16 @@
             </div>
 		</div>
 	</body>
+    <button id="print" type="button" onclick="print()">print</button>
+    <script type="text/javascript">
+        function print() {
+                document.getElementById('profile-picture').style.display = 'block';
+                document.getElementById('cv-title').style.display = 'table-cell';
+                document.getElementById('cv-url').style.display = 'table-cell';
+                document.body.style.background = 'white'; 
+                document.getElementById('print').style.visibility='hidden';
+        }
+    </script>
 </html>
 
 

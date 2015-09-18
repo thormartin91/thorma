@@ -193,6 +193,16 @@
     padding: 0;
     position: absolute;
     width: 1px;
-}
+	}
+	#profile-picture {
+		float: right; 
+		display: none;
+	}
+	#cv-title {
+		display: none;
+	}
+	#cv-url {
+		display: none;
+	}
 
 </style>
